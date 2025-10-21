@@ -1,0 +1,54 @@
+# Gitignore para projeto Expo / React Native
+
+# Node / JavaScript
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Expo / Web
+.expo/
+.expo-shared/
+web-build/
+
+# React Native / Metro
+*.pack
+*.map
+
+# Android
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/app/release/
+android/app/debug.keystore
+android/app/*.keystore
+
+# iOS (caso exista)
+ios/build/
+ios/DerivedData/
+ios/Pods/
+*.xcworkspace
+*.xcodeproj/xcuserdata/
+*.xcuserstate
+*.pbxuser
+
+# IDEs / Editores
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+
+# SO / arquivos temporários
+.DS_Store
+Thumbs.db
+
+# Variáveis de ambiente
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.test
