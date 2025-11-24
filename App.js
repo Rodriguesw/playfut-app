@@ -4,7 +4,8 @@ import { WebView } from 'react-native-webview';
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 
 export default function App() {
-  const uri = 'https://tg-fatec-plik6hafs-matheus-s-projects-0804365d.vercel.app/';
+  //tg-fatec-ml744amcu-matheus-s-projects-0804365d.vercel.app
+  const uri = 'https://tg-fatec-9carxhkil-matheus-s-projects-0804365d.vercel.app/';
   const webViewRef = useRef(null);
   const [canGoBack, setCanGoBack] = useState(false);
 
